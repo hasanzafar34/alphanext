@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Home.css">
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Font Awesome Script Tag -->
+    <script src="https://kit.fontawesome.com/34f583a023.js" crossorigin="anonymous"></script>
+
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <!--Navigation Bar-->
+        <div class="navbar">
+            <div class="logo"><img src="ANsimple.png" alt="logo" height="40px"></div>
+            <ul class="nav-menu">
+                <li><span class="navitem"><a href="index.html">Home</a></span></a></li>
+                <li><span class="navitem"><a href="Projects.html">Projects</a></span></a></li>
+                <li><span class="navitem"><a href="Services.html">Services</a></span></a></li>
+                <li><span class="navitem"><a href="Contact.html">Contact</a></span></a></li>
+            </ul>
+
+            <div class="menubar">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <!--Main Page-->
+        <div class="section1">
+            <div class="sec_left">
+                <div class="main_content">
+                    <div class="m_text">
+                        <h2 class="heading">Welcome to <span class="name">AlphaNext</span></h2>
+                        <div style="font-size: large; color: white;" >We are Specialized in <span class="b_text" id="element"></span></div>
+                     </div>
+                     <br><br>
+                     <button class="hp_btn"><a class"m_link" href="https://www.fiverr.com/alpha_next?up_rollout=true">Order Now</a></button>
+                </div>
+            </div>
+            <div class="sec_right">
+                <img class="image" src="webdev.png" alt="Web Developer">
+            </div>
+        </div>
+
+        <hr>
+    </main>
+    <footer>
+        <!--Footer-->
+        <div class="footer">
+            <!-- Location -->
+            <div class="pas">
+                <h4 class="s1_title">Location</h4>
+                <ul class="ps">
+                    <h5 class="s1_title">Islamabad, Pakistan</h5>
+                    <h5 class="s1_title">Postel Code 44210</h5>
+                </ul>
+            </div>
+            <!-- Payment -->
+            <div class="pas">
+                <h4 class="s1_title">Payment</h4>
+                <ul class="ps">
+                    <h6 class="s1_title">Easypaisa / Jazzcash</h6>
+                    <h6 class="s1_title">Bank Transfer</h6>
+                </ul>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social_media pas">
+                <h4 class="s1_title">Social Media</h4>
+                <ul class="sm">
+                    <a class="sm m_link" href="#"><i class="fa-brands fa-instagram fa-2xl" style="color: #e6e6fa;"></i></a>
+
+                    <a class="sm m_link" href="#"><<i class="fa-brands fa-facebook fa-2xl" style="color: #e6e6fa;"></i></a>
+
+                    <!-- <a class="sm" href="#"><i class="fa-brands fa-twitter fa-2xl" style="color: #e6e6fa;"></i></a> -->
+
+                    <!-- <a class="sm" href="#"><i class="fa-brands fa-linkedin fa-2xl" style="color: #e6e6fa;"></i></i></a> -->
+                </ul>
+            </div>
+            <!-- Resources -->
+            <div class="pas">
+                <h4 class="s1_title">Quick Links</h4>
+                <ul class="ps">
+                    <h6 class="s1_title"><a href="Projects.html">Projects</a></h6>
+                    <h6 class="s1_title"><a href="Services.html">Services</a></h6>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="main_script.js"></script>
+
+    <!--Internal JavaScript-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Development', 'App Development', 'Machine Learning', 'Graphic Designing.'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script src="Home.js"></script>
+</body>
+</body>
+</html>
